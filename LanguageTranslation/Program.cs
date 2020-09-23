@@ -21,7 +21,7 @@ namespace LanguageTranslation
             [Option('s', "sourceLanguage", Required = false, HelpText = "Source filename (Default = portal.xml")]
             public string SourceLanguage { get; set; } = "en";
 
-            [Option('t', "sourceFilename", Required = false, HelpText = "Source language (Defaults to en = english)")]
+            [Option('f', "sourceFilename", Required = false, HelpText = "Source language (Defaults to en = english)")]
             public string SourceFilename { get; set; } = "portal.xml";
         }
 
