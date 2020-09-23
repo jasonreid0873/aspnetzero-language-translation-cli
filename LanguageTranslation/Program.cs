@@ -18,10 +18,10 @@ namespace LanguageTranslation
             [Option('t', "targetFilename", Required = false, HelpText = "Target filename (Default = <sourceFilename>-<targetLanguage> | example portal-fr.xml")]
             public string TargetFilename { get; set; }
 
-            [Option('s', "sourceLanguage", Required = false, HelpText = "Source filename (Default = portal.xml")]
+            [Option('s', "sourceLanguage", Required = false, HelpText = "Source language (Defaults to en = english)")]
             public string SourceLanguage { get; set; } = "en";
 
-            [Option('f', "sourceFilename", Required = false, HelpText = "Source language (Defaults to en = english)")]
+            [Option('f', "sourceFilename", Required = false, HelpText = "Source filename (Default = portal.xml")]
             public string SourceFilename { get; set; } = "portal.xml";
         }
 
