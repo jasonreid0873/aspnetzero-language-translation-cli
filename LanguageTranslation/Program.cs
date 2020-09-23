@@ -39,6 +39,7 @@ namespace LanguageTranslation
                 XmlElement root = LoadXml(sourceFile);
                 if (root != null)
                 {
+                    root.SetAttribute("culture", targetLanguage);
                     TranslateXml(root, sourceLanguage, targetLanguage, targetFile);
                 }
                 Console.WriteLine($"Translation completed and saved as {targetFile}");
