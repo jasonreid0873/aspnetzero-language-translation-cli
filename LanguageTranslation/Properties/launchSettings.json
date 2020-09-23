@@ -1,0 +1,11 @@
+{
+  "profiles": {
+    "LanguageTranslation": {
+      "commandName": "Project",
+      "commandLineArgs": "-l ro",
+      "environmentVariables": {
+        "GOOGLE_APPLICATION_CREDENTIALS": "C:\\LanguageTranslation-7633c2b7b675.json"
+      }
+    }
+  }
+}

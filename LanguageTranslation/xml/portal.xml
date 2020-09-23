@@ -1,0 +1,24 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<localizationDictionary culture="en">
+  <texts>
+	<text name="HomePage">Home page</text>
+    <text name="AboutUs">About us</text>
+    <text name="Administration">Administration</text>
+    <text name="Roles">Roles</text>
+    <text name="Users">Users</text>
+    <text name="InvalidFormMessage">Your form is invalid. Please check and correct it.</text>
+    <text name="InvalidUserNameOrPassword">Invalid user name or password</text>
+    <text name="ThereIsNoTenantDefinedWithName{0}">There is no tenant defined with name {0}</text>
+    <text name="TenantIsNotActive">Tenant {0} is not active.</text>
+    <text name="UserIsNotActiveAndCanNotLogin">User {0} is not active and can not log in.</text>
+    <text name="PleaseEnterLoginInformation">Please enter login information</text>
+    <text name="TenancyName">Tenant code</text>
+    <text name="UserNameOrEmail">User name or email</text>
+    <text name="Password">Password</text>
+    <text name="RememberMe">Remember me</text>
+    <text name="LogIn">Log in</text>
+    <text name="ForgotPassword">Forgot password?</text>
+    <text name="DontYouHaveAnAccount">Don't you have an account?</text>
+    <text name="CreateAnAccount">Create account</text>
+  </texts>
+</localizationDictionary>

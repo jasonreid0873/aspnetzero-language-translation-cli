@@ -1,0 +1,34 @@
+<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <OutputType>Exe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+	<!-- beauty into sub-directory, default is libs, quote with "" if contains space  -->
+    <BeautyLibsDir>libraries</BeautyLibsDir>
+    <!-- dlls that you don't want to be moved or can not be moved -->
+    <!-- <BeautyExcludes>dll1.dll;lib*;...</BeautyExcludes> -->
+    <!-- set to True if you want to disable -->
+    <DisableBeauty>False</DisableBeauty>
+    <ForceBeauty>False</ForceBeauty>
+    <!-- <BeautyAfterTasks></BeautyAfterTasks> -->
+    <!-- set to True if you want to disable -->
+    <DisablePatch>False</DisablePatch>
+    <!-- valid values: Error|Detail|Info -->
+    <BeautyLogLevel>Error</BeautyLogLevel>
+    <!-- set to a repo mirror if you have troble in connecting github -->
+    <!-- <GitCDN>https://gitee.com/liesauer/HostFXRPatcher</GitCDN> -->
+    <!-- <GitTree>master</GitTree> -->
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="CommandLineParser" Version="2.8.0" />
+    <PackageReference Include="Google.Cloud.Translation.V2" Version="2.0.0" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="xml\portal.xml">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </None>
+  </ItemGroup>
+
+</Project>
